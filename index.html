@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Flexbox 0 — starting code</title>
     <style>
+      *{
+        box-sizing: border-box;
+      }
       html {
         font-family: sans-serif;
       }
@@ -12,55 +15,51 @@
         margin: 0;
       }
 
-      header {
-        background: purple;
-        height: 100px;
+      .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
-
-      h1 {
-        text-align: center;
-        color: white;
-        line-height: 100px;
-        margin: 0;
-      }
-
-      article {
+      .item{
+        margin:10px;
         padding: 10px;
-        margin: 10px;
-        background: aqua;
-      }
+        width: 300px;
+       background-color: lightgrey;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px black;
 
-      /* Add your flexbox CSS below here */
+      }
+      
+      .item1{
+        min-height:200px;
+      }
+      .item2{
+        min-height: 200px;
+      }
+      .item3{
+        min-height: 200px;
+      }
 
 
       
     </style>
   </head>
   <body>
-    <header>
-      <h1>Sample flexbox example</h1>
-    </header>
-
-    <section>
-      <article>
-        <h2>First article</h2>
-
-        <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
-      </article>
-
-      <article>
-        <h2>Second article</h2>
-
-        <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
-      </article>
-
-      <article>
-        <h2>Third article</h2>
-
-        <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
-
-        <p>Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party.</p>
-      </article>
-    </section>
+    <div class="container">
+      <div class="item item1">
+       <h1>head1</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, id? Doloribus eaque impedit voluptatibus! Magnam quo tempore quia sint. Optio labore ullam enim aperiam laborum perferendis ad commodi necessitatibus aspernatur sunt quisquam maiores, et id. Cupiditate, incidunt? Quae, maxime harum.</p>
+      </div >
+      <div class="item item2">
+       <h1>head2</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus quae placeat inventore perferendis quisquam autem consequatur commodi architecto exercitationem sapiente corrupti reprehenderit facere molestias officiis ipsa incidunt natus, illo, cumque quod rem porro debitis. Illo, a ullam magnam totam, dolores iure iusto veritatis culpa quaerat accusantium doloribus odit repellendus.</p>
+      </div>
+      <div class="item item2">
+        <h1>head3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro ea aliquam quasi molestias nisi eligendi, obcaecati quam! Animi pariatur eaque eos laudantium, quod earum laborum officiis assumenda neque eum quia, tempore sint tempora consequatur nisi itaque quibusdam nostrum culpa nesciunt? Quos provident totam asperiores nostrum quia, ipsum soluta. Sit?</p>
+      </div>
+    
+    </div>
+  
   </body>
 </html>
