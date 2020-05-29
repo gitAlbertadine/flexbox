@@ -17,29 +17,53 @@
 
       .container{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-end;
+       
+       
       }
       .item{
         margin:10px;
         padding: 10px;
         width: 300px;
-       background-color: lightgrey;
+       background-color: rgb(240, 226, 226);
         border-radius: 10px;
-        box-shadow: 10px 5px 5px black;
+        box-shadow: 10px 5px 5px gray;
 
       }
       
       .item1{
+        /* order: 1; */
         min-height:200px;
+        
       }
       .item2{
         min-height: 200px;
+        height: 400px;
+        
       }
       .item3{
-        min-height: 200px;
+         min-height: 200px;
+         height: 450px;
       }
 
+      .item4{
+        /* order: 1; */
+        min-height:200px;
+        
+      }
+      .item5{
+        min-height: 200px;
+        height: 400px;
+        
+      }
+      .item6{
+         min-height: 200px;
+         height: 450px;
+      }
 
       
     </style>
@@ -48,17 +72,34 @@
     <div class="container">
       <div class="item item1">
        <h1>head1</h1>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, id? Doloribus eaque impedit voluptatibus! Magnam quo tempore quia sint. Optio labore ullam enim aperiam laborum perferendis ad commodi necessitatibus aspernatur sunt quisquam maiores, et id. Cupiditate, incidunt? Quae, maxime harum.</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, id? Doloribus eaque impedit voluptatibus! Magnam quo tempore quia sint. Optio labore ullam enim aperiam laborum perferendis ad commodi necessitatibus aspernatur sunt quisquam maiores, et id. Cupiditate, incidunt? Quae, maxime harum.
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quae rerum, libero officiis quas in ipsa recusandae? Suscipit, vitae. Quam dolorum eum iste perspiciatis impedit? Nesciunt, libero consectetur. Suscipit, beatae.
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis nam unde velit ullam laudantium aliquam ut perferendis harum, voluptas laboriosam qui commodi dolores quos et ipsum id amet vitae.
+        </p>
       </div >
       <div class="item item2">
        <h1>head2</h1>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus quae placeat inventore perferendis quisquam autem consequatur commodi architecto exercitationem sapiente corrupti reprehenderit facere molestias officiis ipsa incidunt natus, illo, cumque quod rem porro debitis. Illo, a ullam magnam totam, dolores iure iusto veritatis culpa quaerat accusantium doloribus odit repellendus.</p>
+       <p>ipisici perferendis quisquam autem consequatur commodi architecto exercitationem sapiente corrupti reprehenderit facere molestias officiis ipsa incidunt natus, illo, cumque quod rem porro debitis. Illo, a ullam magnam totam, dolores iure iusto veritatis culpa quaerat accusantium doloribus odit repellendus.</p>
       </div>
-      <div class="item item2">
+      <div class="item item3">
         <h1>head3</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro ea aliquam quasi molestias nisi eligendi, obcaecati quam! Animi pariatur eaque eos laudantium, quod earum laborum officiis assumenda neque eum quia, tempore sint tempora consequatur nisi itaque quibusdam nostrum culpa nesciunt? Quos provident totam asperiores nostrum quia, ipsum soluta. Sit?</p>
       </div>
-    
+      <div class="item item4">
+        <h1>head4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, id? Doloribus eaque impedit voluptatibus! Magnam quo tempore quia sint. Optio labore ullam enim aperiam laborum perferendis ad commodi necessitatibus aspernatur sunt quisquam maiores, et id. Cupiditate, incidunt? Quae, maxime harum.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quae rerum, libero officiis quas in ipsa recusandae? Suscipit, vitae. Quam dolorum eum iste perspiciatis impedit? Nesciunt, libero consectetur. Suscipit, beatae.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis nam unde velit ullam laudantium aliquam ut perferendis harum, voluptas laboriosam qui commodi dolores quos et ipsum id amet vitae.
+         </p>
+       </div >
+       <div class="item item5">
+        <h1>head5</h1>
+        <p>ipisici perferendis quisquam autem consequatur commodi architecto exercitationem sapiente corrupti reprehenderit facere molestias officiis ipsa incidunt natus, illo, cumque quod rem porro debitis. Illo, a ullam magnam totam, dolores iure iusto veritatis culpa quaerat accusantium doloribus odit repellendus.</p>
+       </div>
+       <div class="item item6">
+         <h1>head6</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro ea aliquam quasi molestias nisi eligendi, obcaecati quam! Animi pariatur eaque eos laudantium, quod earum laborum officiis assumenda neque eum quia, tempore sint tempora consequatur nisi itaque quibusdam nostrum culpa nesciunt? Quos provident totam asperiores nostrum quia, ipsum soluta. Sit?</p>
+       </div>
     </div>
   
   </body>
